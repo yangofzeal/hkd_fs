@@ -208,3 +208,6 @@ https://github.com/yangofzeal/hkd_fs
 
 ## Buy HKD FS Unlimited
 https://buy.stripe.com/bJecMYf594fZ5fs4sDgUM06
+
+# also see rsyncbolt, the 30x speedup replacement for rsync
+https://github.com/yangofzeal/rsyncbolt
