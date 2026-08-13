@@ -1,6 +1,6 @@
 # HKD FS
 
-**Up to 30x faster exact versioned file writes in Python by writing what changed instead of copying the whole file again.**
+**Up to 30x faster exact versioned file writes in Python.**
 
 HKD FS is designed for versioned files with sparse changes: checkpoints, NumPy arrays, scientific state, databases, caches, simulation output, serialized models, and other persistent binary artifacts.
 
