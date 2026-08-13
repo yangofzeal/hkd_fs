@@ -206,11 +206,5 @@ python theory_test.py
 https://github.com/yangofzeal/hkd_fs
 ```
 
-## Buy unlimited (no size restriction) hkd_fs:
-https://buy.stripe.com/bJecMYf594fZ5fs4sDgUM06
-
 ## Buy HKD FS Unlimited
-
-```text
-STRIPE_LINK_TO_BE_FILLED_IN
-```
+https://buy.stripe.com/bJecMYf594fZ5fs4sDgUM06
