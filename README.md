@@ -77,6 +77,9 @@ exact_hkd=True
 
 **Measured result: up to 29.98x faster end-to-end versioned writes and 37.17x fewer persistent bytes in the tested workload.**
 
+## Buy unlimited (no size restriction) hkd_fs:
+https://buy.stripe.com/bJecMYf594fZ5fs4sDgUM06
+
 ## Why It Works
 
 For a file of `N` bytes stored across `V` complete versions:
@@ -202,6 +205,9 @@ python theory_test.py
 ```text
 https://github.com/yangofzeal/hkd_fs
 ```
+
+## Buy unlimited (no size restriction) hkd_fs:
+https://buy.stripe.com/bJecMYf594fZ5fs4sDgUM06
 
 ## Buy HKD FS Unlimited
 
