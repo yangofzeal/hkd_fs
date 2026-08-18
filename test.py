@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 from __future__ import print_function
 
-from pathlib import Path
+import os
 import sys
 
-ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT))
+ROOT = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, ROOT)
 
 import hkd_fs
 from benchmark_core import create_npz, benchmark_versioned, print_result
 
-DATA = ROOT / "dataset_free.npz"
+DATA = os.path.join(ROOT, "dataset_free.npz")
 TARGET_BYTES = 512 * 1024
 
-if not DATA.exists():
+if not os.path.exists(DATA):
     create_npz(DATA, TARGET_BYTES)
 
-hkd_fs.authorize_size(DATA.stat().st_size)
+hkd_fs.authorize_size(os.path.getsize(DATA))
 
 r = benchmark_versioned(
     hkd_fs,
